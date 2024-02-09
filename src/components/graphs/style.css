@@ -1,0 +1,163 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.income-no{
+    width: 90%;
+}
+.income-dollar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.inc-dol{
+    margin-right: 20%;
+}
+.ret-income{
+    color: rgba(73, 53, 255, 0.737);
+    font-size: medium;
+    font-weight: 600;
+}
+.retirement-income{
+    padding: 10px;
+}
+.hr-dollar{
+    width: 120%;
+    height: 3px;
+    background-color: rgba(73, 53, 255, 0.737);
+}
+
+.income-graph{
+    height: 50%;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.income-circle{
+    height: 30%;
+    width: 90%;
+    padding: 10px;
+}
+.income-circle-title{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-income-circle{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inc-dol-1{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.circle-info{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+.circles{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    opacity: 0.6;
+}
+.circle-progress{
+    height: 90%;
+    width: 20%;
+}
+.graph{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    .main{
+     width: 100%;
+    }
+    .graph{
+        height: 200px;
+    }
+    .inc-dol-1{
+        width: 50%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .main{
+     width: 100%;
+     padding-top: 50px;
+     background-color:white;
+    }
+    .income-circle{
+        height: 400%;
+    }
+    .income-circle-title{
+        height: 80px;
+    }
+    .circle-info{
+        width: 80%;
+    }
+    .circles{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .circle-info{
+        height: 50%;
+    }
+    .circle-progress{
+        height: 90px;
+        width: 90px;
+    }
+    .main-income-circle{
+        display: block;
+    }
+    .inc-dol{
+        width: 75%;
+    }
+    .graph{
+        height: 200px;
+        width: fit-content;
+    }
+    .income-dollar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .inc-dol{
+        padding: 0%;
+    }
+    .inc-dol-1{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hr-dollar{
+        width: 90%;
+        height: 3px;
+        background-color: rgba(73, 53, 255, 0.484);
+    }
+ }
+
